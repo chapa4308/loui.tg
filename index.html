@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Эльдархан Аллахвердиев — предприниматель, создатель брендов, цифровые проекты. Связь в Telegram.">
+  <meta name="keywords" content="Эльдархан Аллахвердиев, предприниматель, бренды, цифровые проекты, P2P арбитраж, Telegram">
+  <meta name="author" content="Эльдархан Аллахвердиев">
+  <title>Эльдархан Аллахвердиев — Предприниматель</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: '#0b0b0f',
+            accent: '#8b0000',
+            'accent-bright': '#b11226',
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #0b0b0f;
+    }
+    .hero-glow {
+      background: radial-gradient(
+        ellipse 80% 50% at 50% 50%,
+        rgba(139, 0, 0, 0.15) 0%,
+        rgba(177, 18, 38, 0.08) 40%,
+        transparent 70%
+      );
+      animation: glow-pulse 8s ease-in-out infinite;
+    }
+    @keyframes glow-pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+    .btn-cta {
+      background: linear-gradient(135deg, #8b0000 0%, #b11226 100%);
+      box-shadow: 0 0 30px rgba(139, 0, 0, 0.4), 0 0 60px rgba(139, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .btn-cta:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(139, 0, 0, 0.5), 0 0 80px rgba(139, 0, 0, 0.25);
+    }
+    .btn-cta {
+      animation: btn-pulse 3s ease-in-out infinite;
+    }
+    @keyframes btn-pulse {
+      0%, 100% { box-shadow: 0 0 30px rgba(139, 0, 0, 0.4), 0 0 60px rgba(139, 0, 0, 0.2); }
+      50% { box-shadow: 0 0 35px rgba(139, 0, 0, 0.5), 0 0 70px rgba(139, 0, 0, 0.25); }
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="text-white antialiased font-sans">
+  <main>
+    <!-- 1. HERO -->
+    <section class="hero-glow min-h-screen flex flex-col items-center justify-center px-6 py-20 text-center relative overflow-hidden">
+      <div class="relative z-10 max-w-4xl mx-auto">
+        <h1 class="fade-in text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4 sm:mb-6">
+          Эльдархан Аллахвердиев
+        </h1>
+        <p class="fade-in text-lg sm:text-xl md:text-2xl text-gray-300 mb-3 sm:mb-4" style="transition-delay: 0.1s">
+          Предприниматель. Создатель брендов. Цифровые проекты.
+        </p>
+        <p class="fade-in text-sm sm:text-base text-gray-400 mb-10 sm:mb-12 max-w-xl mx-auto" style="transition-delay: 0.2s">
+          16 лет. Строю системные источники дохода в офлайн и онлайн бизнесе.
+        </p>
+        <div class="fade-in" style="transition-delay: 0.3s">
+          <a
+            href="https://t.me/suckloui"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-cta inline-block px-8 py-4 rounded-full text-white font-semibold text-base sm:text-lg"
+          >
+            Связаться со мной
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SHORT ABOUT -->
+    <section class="min-h-[40vh] flex flex-col items-center justify-center px-6 py-20 text-center">
+      <div class="fade-in max-w-2xl mx-auto">
+        <p class="text-gray-300 text-base sm:text-lg leading-relaxed">
+          Я развиваю бренды одежды, цифровые проекты и обучающие программы в сфере P2P арбитража.
+        </p>
+        <p class="text-gray-400 text-base sm:text-lg leading-relaxed mt-4">
+          Вся актуальная информация, проекты и ресурсы доступны в моём Telegram.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. FINAL CTA -->
+    <section class="min-h-[50vh] flex flex-col items-center justify-center px-6 py-20 text-center">
+      <p class="fade-in text-xl sm:text-2xl md:text-3xl text-gray-300 font-medium mb-10 sm:mb-12 max-w-2xl mx-auto leading-relaxed">
+        Открыт к сотрудничеству и новым возможностям.
+      </p>
+      <div class="fade-in">
+        <a
+          href="https://t.me/suckloui"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-cta inline-block px-8 py-4 rounded-full text-white font-semibold text-base sm:text-lg"
+        >
+          Связаться со мной
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800/50 py-8 px-6 text-center">
+      <p class="fade-in text-gray-500 text-sm">
+        Telegram: <a href="https://t.me/suckloui" target="_blank" rel="noopener noreferrer" class="text-accent-bright hover:underline">@suckloui</a>
+      </p>
+      <p class="text-gray-600 text-xs mt-2">
+        © 2026 Эльдархан Аллахвердиев
+      </p>
+    </footer>
+  </main>
+
+  <script>
+    (function () {
+      const fadeEls = document.querySelectorAll('.fade-in');
+      const observer = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+            }
+          });
+        },
+        { rootMargin: '0px 0px -60px 0px', threshold: 0.1 }
+      );
+      fadeEls.forEach(function (el) {
+        observer.observe(el);
+      });
+      // Hero elements visible on load
+      document.querySelectorAll('.hero-glow .fade-in').forEach(function (el, i) {
+        setTimeout(function () {
+          el.classList.add('visible');
+        }, 150 + i * 80);
+      });
+    })();
+  </script>
+</body>
+</html>
